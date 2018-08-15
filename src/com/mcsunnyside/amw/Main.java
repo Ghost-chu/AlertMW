@@ -35,7 +35,7 @@ public class Main extends JavaPlugin implements Listener {
 		ArrayList<String> blockList = (ArrayList<String>) getConfig().getList("block");
 		boolean isCheckBlock = false;
 		for (String string : blockList) {
-			if(Material.matchMaterial(string)==e.getBlock().getType()) {
+			if(Material.matchMaterial(string)==e.getBlock().getType() || string.equals("*")) {
 				isCheckBlock = true;
 				break;
 			}
