@@ -1,0 +1,46 @@
+world:
+#These world will be listen
+  - mw
+  - w1
+block:
+#When these block has placed, The placer will got a alert.
+  - chest
+  - furnace
+  - farmland
+  - crafting_table
+  - glass
+  - white_bed
+  - orange_bed
+  - magenta_bed
+  - light_blue_bed
+  - yellow_bed
+  - lime_bed
+  - pink_bed
+  - gray_bed
+  - light_gray_bed
+  - cyan_bed
+  - purple_bed
+  - blue_bed
+  - brown_bed
+  - green_bed
+  - red_bed
+  - black_bed
+  - iron_door
+  - oak_door
+  - spruce_door
+  - brich_door
+  - jungle_door
+  - acacia_door
+  - dark_oak_door
+  #- *
+  #*=add all block
+message:
+  mw_title: "§c警告"
+  mw_subtitle: "§c您当前处于资源世界 世界将会自动刷新 请勿在此建筑"
+  w1_title: "§c过期世界"
+  w1_subtitle: "§c此世界大部分功能被关闭 仅用于纪念 请勿在此生存"
+time:
+#Unit: ticks
+  fadein: 0
+  stay: 80
+  fadeout: 0
